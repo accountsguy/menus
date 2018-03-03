@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="accountsguy.net.MainActivity">
+    <item
+        android:id="@+id/empty"
+        android:title="Text Color"
+        android:orderInCategory="101"
+        app:showAsAction="always">
+        <!--android:icon="@drawable/ic_action_overflow"-->
+        <menu>
+            <item
+                android:id="@+id/orange"
+                android:title="Orange"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/blue"
+                android:title="Blue"
+                app:showAsAction="always" />
+
+            <item
+                android:id="@+id/Green"
+                android:title="Green"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+</menu>
